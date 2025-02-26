@@ -1,7 +1,6 @@
 import smtplib
 import email.message
 
-
 def enviar_email():
     msg = email.message.EmailMessage()
     msg['Subject'] = 'email enviado com python'
