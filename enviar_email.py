@@ -1,6 +1,7 @@
 import smtplib
 import email.message
 
+
 def enviar_email():
     msg = email.message.EmailMessage()
     msg['Subject'] = 'email enviado com python'
@@ -8,7 +9,7 @@ def enviar_email():
     msg['To'] = 'lucas2000@gmail.com'
     msg['Cc'] = 'engsoftwaresivaldoalmeida+copia@gmail.com'
     msg['Bcc'] = 'engsoftwaresivaldoalmeida@gmail.com'
-    link_imagem = 'https://png.pngtree.com/png-vector/20220106/ourmid/pngtree-small-fresh-and-lovely-fruit-cartoon-image-longan-longan-vector-material-png-image_4089371.png'
+    link_imagem = 'https://i.ibb.co/yFhHQx22/pngtree-small-fresh-and-lovely-fruit-cartoon-image-longan-longan-vector-material-png-image-4089371.png'
     corpo_email = f"""<p>Boa tarde</p>
     <img src='{link_imagem}'>
     """
