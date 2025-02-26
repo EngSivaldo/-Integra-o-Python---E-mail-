@@ -1,0 +1,4 @@
+#SMTP
+#outlook
+
+#serviços Treceirizados (Twillio/Sendgrid, Postmart, outros)
