@@ -1,7 +1,7 @@
 from imap_tools import MailBox, AND
 
-usuario = "seuemail@gmail.com"
-senha = "sua_senha_app_aqui"
+usuario = "engsoftwaresivaldoalmeida@gmail.com"
+senha = "kdzn hoil zztb zqfc"
 
 meu_email = MailBox("imap.gmail.com").login(usuario, senha)
 
@@ -11,7 +11,7 @@ meu_email = MailBox("imap.gmail.com").login(usuario, senha)
 
 # meu_email.folder.set('[Gmail]/E-mails enviados')
 
-lista_emails = meu_email.fetch(AND(from_="emailremetente@gmail.com", to="emaildestinatario@hotmail.com"))
+lista_emails = meu_email.fetch(AND(from_="engsoftwaresivaldoalmeida@gmail.com", to="engsoftwaresivaldoalmeida@gmail.com"))
 
 for i, email in enumerate(lista_emails):
     if len(email.attachments) > 0:
